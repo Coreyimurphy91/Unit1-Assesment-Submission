@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 #result {
-    margin-top: 2em;
+    margin-top: 1em;
     padding: 0;
     display: flex;  /* defaults to row layout */
 	justify-content: center;  /* centers items horizontally in row layout */
