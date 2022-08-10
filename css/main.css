@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+#result {
+    margin-top: 2em;
+    padding: 0;
+    display: flex;  /* defaults to row layout */
+	justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.container {
+    margin-top: 3em;
+	display: flex;  /* defaults to row layout */
+	justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+	/* flex-direction: column; will set layout to column instead of row */
+
+}
+
+#plus, #minus {
+    font-size: 3em;
+    color: white;
+    background-color: rgb(190, 190, 190);
+    border: none;
+    border-radius: 10px;
+}
+
+#input {
+    text-align: center;
+    border: 5px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    font-size: 3em;
+    font-family: 'Mukta', sans-serif;
+    margin: 0 20px;
+    width: 130px;
+    height: 70px;
+
+}
+
+#plus {
+    /* padding: 10px 25px; */
+    height: 80px;
+    width: 80px;
+}
+
+#minus {
+    /* padding: 10px 25px; */
+    height: 80px;
+    width: 80px;
+}
